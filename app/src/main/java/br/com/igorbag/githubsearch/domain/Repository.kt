@@ -6,4 +6,5 @@ data class Repository(
     val name: String,
     @SerializedName("html_url")
     val htmlUrl: String
+
 )
